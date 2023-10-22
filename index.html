@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name=""viewport content="width=device-width, initial scale=1">
+    <title>STEM Website Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="nav-links">
+                <i>
+                    <a class="fa fa-times" onclick="hideMenu()"></a>
+                </i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COMPETITIONS</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Encouraging Education for Everyone.</h1>
+        <p> STEM is an approach to learning and development that integrates the areas of science, technology, engineering and mathematics.
+            <br>STEM education aims to equip individuals with the skills, knowledge, and problem-solving abilities necessary to thrive in these fields. 
+            <br>It fosters critical thinking, creativity, teamwork, and innovation. STEM-related careers are diverse and offer opportunities
+            <br>in fields like healthcare, technology, environmental science, aerospace, and engineering, among others.</p>
+        <a href="" class="hero-btn">LEARN MORE</a>
+    </div>
+
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+        }
+    </script>
+
+    </section>
+</body>
+</html>
