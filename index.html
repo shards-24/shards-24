@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta name=""viewport content="width=device-width, initial scale=1">
@@ -15,20 +15,24 @@
         <nav>
             <a href="index.html"></a>
             <div class="nav-links" id="nav-links">
-                <i>
-                    <a class="fa fa-times" onclick="hideMenu()"></a>
-                </i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
-                    <li><a href="">COMPETITIONS</a></li>
+                    <li><a href="">COURSES</a></li>
                     <li><a href="">EVENTS</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">CONTACTS</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-
+            <div class="dropdown">
+                <button class="dropbtn">Languages</button>
+                <div class="dropdown-content">
+                  <a href="#">Hindi</a>
+                  <a href="#">Malay</a>
+                  <a href="#">Mandarin</a>
+                </div>
+              </div>
+            </nav>
+        </section>
     <div class="text-box">
         <h1>Encouraging Education for Everyone.</h1>
         <p> STEM is an approach to learning and development that integrates the areas of science, technology, engineering and mathematics.
@@ -37,9 +41,52 @@
             <br>in fields like healthcare, technology, environmental science, aerospace, and engineering, among others.</p>
         <a href="" class="hero-btn">LEARN MORE</a>
     </div>
-
+    
     </section>
+    
+    <section class="course">
+        <h1>Courses Available</h1>
+        <p>Take a look at the various available STEM courses<br>
+            and projects:</p>
+        <div class="row">
+           <div class="course-col">
+                <h3>Starter</h3>
+                <p>For our curious and just-getting-into science students who are ready to take compeitive tasks that engage yourselves.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>For our curious and just-getting-into science students who are ready to take compeitive tasks that engage yourselves.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advanced</h3>
+                <p>For our curious and just-getting-into science students who are ready to take compeitive tasks that engage yourselves.</p>
+            </div>
+        </div>
+    </section>
+    
 
+    </section class = "campus">
+        <div class = "row">
+            <div class = "campus-col">
+                <img src = "starters3.webp">
+                <div class="layer">
+                <h3>Starters</h3>
+                </div>
+            </div>
+            <div class = "campus-col">
+                <img src = "intemediates2.jpg">
+                <div class="layer">
+                <h3>Intermediates</h3>
+                </div>
+            </div>
+            <div class = "campus-col">
+                <img src = "advanced.jpg">
+                <div class="layer">
+                <h3>Advanced</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script>
         var navLinks = document.getElementById("navLinks");
@@ -54,3 +101,19 @@
     </section>
 </body>
 </html>
+
+<section id="target-section">
+    <section class="footer">
+        <h2>About Us</h2>
+        <p>STEM education aims to prepare elementary and secondary students for careers in <br>
+            Science, Technology, Engineering, and Math as well as for Postsecondary education. <br>
+            Apart from teaching various subjects such as specific knowledge,<br>
+            STEM tries to develop critical thinking, reasoning, and teamwork abilities.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Shardul and Aashutosh.</p>
+    </section>
